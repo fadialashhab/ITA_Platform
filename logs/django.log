@@ -327,3 +327,6 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^
 AttributeError: 'Course' object has no attribute 'enrollments'
 ERROR 2025-10-05 22:07:21,758 basehttp "GET /api/courses/admin/courses/1/ HTTP/1.1" 500 137983
+INFO 2025-10-05 22:39:50,517 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 22:42:00,812 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 22:42:08,810 basehttp "GET /api/courses/admin/courses/ HTTP/1.1" 200 287

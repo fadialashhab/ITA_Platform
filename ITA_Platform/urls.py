@@ -16,8 +16,7 @@ urlpatterns = [
     # API endpoints
     path('api/accounts/', include('accounts.urls')),
     path('api/courses/', include('courses.urls')),
-    # path('api/courses/', include('courses.urls')),  # Add when created
-    # path('api/enrollments/', include('enrollments.urls')),  # Add when created
+    path('api/enrollments/', include('enrollments.urls')),
     # path('api/certifications/', include('certifications.urls')),  # Add when created
     # path('api/payments/', include('payments.urls')),  # Add when created
     
