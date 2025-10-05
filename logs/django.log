@@ -1,0 +1,160 @@
+INFO 2025-10-05 10:04:39,714 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 10:04:43,189 log Not Found: /
+WARNING 2025-10-05 10:04:43,190 basehttp "GET / HTTP/1.1" 404 2810
+WARNING 2025-10-05 10:04:43,333 log Not Found: /favicon.ico
+WARNING 2025-10-05 10:04:43,333 basehttp "GET /favicon.ico HTTP/1.1" 404 2861
+INFO 2025-10-05 10:04:48,502 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-10-05 10:04:48,521 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-05 10:04:48,558 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+INFO 2025-10-05 10:04:48,644 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-10-05 10:04:48,645 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-10-05 10:04:48,646 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-10-05 10:04:48,649 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-10-05 10:04:48,654 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-10-05 10:04:48,678 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-10-05 10:04:48,691 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-10-05 10:05:04,411 basehttp "GET /api/accounts HTTP/1.1" 301 0
+WARNING 2025-10-05 10:05:04,431 log Unauthorized: /api/accounts/
+WARNING 2025-10-05 10:05:04,432 basehttp "GET /api/accounts/ HTTP/1.1" 401 5097
+INFO 2025-10-05 10:05:04,455 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-10-05 10:05:04,467 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-10-05 10:05:04,468 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-10-05 10:05:04,472 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-10-05 10:05:04,477 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-10-05 10:05:04,478 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-10-05 10:05:04,484 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-10-05 10:05:04,486 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-10-05 10:05:04,486 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-10-05 10:05:04,488 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-10-05 10:05:04,493 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-10-05 10:05:04,532 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-10-05 10:24:31,420 autoreload /home/fadih/Projects/ITA_Platform/accounts/views.py changed, reloading.
+INFO 2025-10-05 10:24:32,824 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 10:29:15,546 autoreload /home/fadih/Projects/ITA_Platform/accounts/views.py changed, reloading.
+INFO 2025-10-05 10:29:16,373 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 10:49:25,572 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 10:50:12,186 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:50:12,188 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 401 58
+WARNING 2025-10-05 10:50:34,746 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:50:34,747 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 401 58
+INFO 2025-10-05 10:50:53,461 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-10-05 10:50:53,592 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+INFO 2025-10-05 10:50:53,702 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:53,704 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:53,738 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:53,759 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:53,824 basehttp "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:53,850 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:53,889 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-10-05 10:50:57,868 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+INFO 2025-10-05 10:51:05,770 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4341
+INFO 2025-10-05 10:51:32,162 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4352
+INFO 2025-10-05 10:52:36,684 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 10:52:42,172 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-10-05 10:52:42,208 basehttp "GET /admin/ HTTP/1.1" 200 7735
+INFO 2025-10-05 10:52:42,274 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-10-05 10:52:42,326 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-10-05 10:52:42,326 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+WARNING 2025-10-05 10:52:56,112 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:52:56,113 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 401 58
+WARNING 2025-10-05 10:53:06,295 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:53:06,295 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 401 58
+INFO 2025-10-05 10:53:12,266 basehttp "GET /admin/accounts/user/ HTTP/1.1" 200 14722
+INFO 2025-10-05 10:53:12,290 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-10-05 10:53:12,296 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-10-05 10:53:12,298 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-05 10:53:12,299 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-10-05 10:53:12,300 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-10-05 10:53:12,373 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-10-05 10:53:12,378 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-10-05 10:53:12,379 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-10-05 10:53:12,382 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-10-05 10:53:12,420 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-10-05 10:53:12,456 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-10-05 10:53:12,483 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-10-05 10:53:12,485 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-10-05 10:53:12,593 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2025-10-05 10:53:12,594 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2025-10-05 10:53:12,594 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-10-05 10:53:19,440 basehttp "GET /admin/accounts/user/add/ HTTP/1.1" 200 15838
+INFO 2025-10-05 10:53:19,462 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-10-05 10:53:19,469 basehttp "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2025-10-05 10:53:19,475 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-10-05 10:53:19,478 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-05 10:53:19,481 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-10-05 10:53:19,510 basehttp "GET /static/admin/js/unusable_password_field.js HTTP/1.1" 200 1480
+INFO 2025-10-05 10:53:19,510 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+INFO 2025-10-05 10:53:51,019 basehttp "POST /admin/accounts/user/add/ HTTP/1.1" 200 16402
+INFO 2025-10-05 10:53:51,052 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-05 10:54:26,998 basehttp "POST /admin/accounts/user/add/ HTTP/1.1" 302 0
+INFO 2025-10-05 10:54:27,026 basehttp "GET /admin/accounts/user/3/change/ HTTP/1.1" 200 25567
+INFO 2025-10-05 10:54:27,102 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-10-05 10:54:27,102 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2025-10-05 10:54:27,204 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15845
+INFO 2025-10-05 10:54:27,336 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+WARNING 2025-10-05 10:54:49,370 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:54:49,371 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 401 58
+WARNING 2025-10-05 10:56:20,389 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:56:20,391 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 401 58
+WARNING 2025-10-05 10:58:15,570 log Unauthorized: /api/accounts/auth/login/
+WARNING 2025-10-05 10:58:15,571 basehttp "GET /api/accounts/auth/login/ HTTP/1.1" 401 3922
+INFO 2025-10-05 10:58:15,653 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-10-05 10:58:15,660 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-10-05 10:58:15,706 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-10-05 10:58:15,735 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-10-05 10:58:15,750 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-10-05 10:58:15,784 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-10-05 10:58:15,794 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-10-05 10:58:15,831 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-10-05 10:58:15,832 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2025-10-05 10:58:15,835 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-10-05 10:58:15,843 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-10-05 10:58:15,875 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2025-10-05 10:58:16,022 log Not Found: /favicon.ico
+WARNING 2025-10-05 10:58:16,023 basehttp "GET /favicon.ico HTTP/1.1" 404 2861
+INFO 2025-10-05 10:59:38,312 autoreload /home/fadih/Projects/ITA_Platform/accounts/views.py changed, reloading.
+INFO 2025-10-05 10:59:39,372 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 10:59:45,527 log Method Not Allowed: /api/accounts/auth/login/
+WARNING 2025-10-05 10:59:45,527 basehttp "GET /api/accounts/auth/login/ HTTP/1.1" 405 5812
+INFO 2025-10-05 11:00:01,185 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 200 149
+WARNING 2025-10-05 11:00:53,971 log Forbidden: /api/accounts/auth/password/change/
+WARNING 2025-10-05 11:00:53,973 basehttp "POST /api/accounts/auth/password/change/ HTTP/1.1" 403 45
+WARNING 2025-10-05 11:09:35,212 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:09:35,213 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 93
+WARNING 2025-10-05 11:12:18,047 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:12:18,049 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 45
+INFO 2025-10-05 11:12:32,969 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 11:12:39,437 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:12:39,439 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 45
+WARNING 2025-10-05 11:18:16,065 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:18:16,068 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 93
+WARNING 2025-10-05 11:23:11,085 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:23:11,177 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 45
+WARNING 2025-10-05 11:27:14,888 log Unauthorized: /api/accounts/users/
+WARNING 2025-10-05 11:27:14,890 basehttp "GET /api/accounts/users/ HTTP/1.1" 401 59
+WARNING 2025-10-05 11:27:19,826 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:27:19,827 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 45
+WARNING 2025-10-05 11:27:30,016 log Method Not Allowed: /api/accounts/auth/login/
+WARNING 2025-10-05 11:27:30,016 basehttp "GET /api/accounts/auth/login/ HTTP/1.1" 405 40
+WARNING 2025-10-05 11:27:37,279 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:27:37,280 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 45
+WARNING 2025-10-05 11:27:42,712 log Method Not Allowed: /api/accounts/auth/login/
+WARNING 2025-10-05 11:27:42,712 basehttp "GET /api/accounts/auth/login/ HTTP/1.1" 405 40
+WARNING 2025-10-05 11:29:02,621 log Forbidden: /api/accounts/auth/login/
+WARNING 2025-10-05 11:29:02,622 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 403 45
+INFO 2025-10-05 11:29:49,163 basehttp "GET /api/accounts/auth/me/ HTTP/1.1" 200 181
+INFO 2025-10-05 11:30:09,462 basehttp "GET /api/accounts/profile/ HTTP/1.1" 200 181
+INFO 2025-10-05 11:30:20,211 basehttp "GET /api/accounts/users/ HTTP/1.1" 200 469
+WARNING 2025-10-05 11:30:36,457 log Forbidden: /api/accounts/users/
+WARNING 2025-10-05 11:30:36,458 basehttp "POST /api/accounts/users/ HTTP/1.1" 403 45
+INFO 2025-10-05 11:39:53,773 basehttp "GET /admin/ HTTP/1.1" 200 4561
+WARNING 2025-10-05 11:40:37,742 log Unauthorized: /api/accounts/auth/me/
+WARNING 2025-10-05 11:40:37,745 basehttp "GET /api/accounts/auth/me/ HTTP/1.1" 401 59
+INFO 2025-10-05 11:40:52,835 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 200 149
+INFO 2025-10-05 11:40:58,261 basehttp "GET /api/accounts/auth/me/ HTTP/1.1" 200 181
+INFO 2025-10-05 11:41:06,109 basehttp "GET /api/accounts/users/ HTTP/1.1" 200 469
+INFO 2025-10-05 11:41:16,898 basehttp "POST /api/accounts/users/ HTTP/1.1" 201 159
+INFO 2025-10-05 11:41:22,276 basehttp "GET /api/accounts/users/ HTTP/1.1" 200 628
+INFO 2025-10-05 11:42:28,151 basehttp "GET /api/accounts/users/1/ HTTP/1.1" 200 326
+INFO 2025-10-05 11:42:51,343 basehttp "POST /api/accounts/auth/logout/ HTTP/1.1" 200 38
+INFO 2025-10-05 11:43:04,587 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 200 147
