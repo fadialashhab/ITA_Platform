@@ -158,3 +158,172 @@ INFO 2025-10-05 11:41:22,276 basehttp "GET /api/accounts/users/ HTTP/1.1" 200 62
 INFO 2025-10-05 11:42:28,151 basehttp "GET /api/accounts/users/1/ HTTP/1.1" 200 326
 INFO 2025-10-05 11:42:51,343 basehttp "POST /api/accounts/auth/logout/ HTTP/1.1" 200 38
 INFO 2025-10-05 11:43:04,587 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 200 147
+INFO 2025-10-05 21:41:04,702 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 21:41:12,492 log Not Found: /
+WARNING 2025-10-05 21:41:12,492 basehttp "GET / HTTP/1.1" 404 2810
+WARNING 2025-10-05 21:41:12,731 log Not Found: /favicon.ico
+WARNING 2025-10-05 21:41:12,731 basehttp "GET /favicon.ico HTTP/1.1" 404 2861
+INFO 2025-10-05 21:41:19,278 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-10-05 21:41:20,811 basehttp "GET /admin/ HTTP/1.1" 200 8120
+INFO 2025-10-05 21:41:21,680 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-10-05 21:41:21,707 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-10-05 21:41:21,718 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-10-05 21:41:21,941 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-10-05 21:41:22,206 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-10-05 21:41:23,350 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-10-05 21:41:23,519 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-10-05 21:41:23,578 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-10-05 21:41:23,617 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-10-05 21:41:49,254 basehttp "GET /admin/ HTTP/1.1" 200 8120
+INFO 2025-10-05 21:42:00,182 basehttp "GET /admin/ HTTP/1.1" 200 8120
+INFO 2025-10-05 21:42:56,119 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 21:43:05,949 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 21:43:12,260 log Not Found: /
+WARNING 2025-10-05 21:43:12,263 basehttp "GET / HTTP/1.1" 404 2810
+INFO 2025-10-05 21:43:14,714 basehttp "GET /admin/ HTTP/1.1" 200 9811
+INFO 2025-10-05 21:43:19,649 autoreload E:\Coding\realProject\ITA\ITA_Platform\ITA_Platform\settings.py changed, reloading.
+INFO 2025-10-05 21:43:20,465 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 21:46:09,789 autoreload E:\Coding\realProject\ITA\ITA_Platform\ITA_Platform\settings.py changed, reloading.
+INFO 2025-10-05 21:46:10,453 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 21:46:14,158 autoreload E:\Coding\realProject\ITA\ITA_Platform\ITA_Platform\settings.py changed, reloading.
+INFO 2025-10-05 21:46:14,967 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 21:46:16,587 autoreload E:\Coding\realProject\ITA\ITA_Platform\ITA_Platform\settings.py changed, reloading.
+INFO 2025-10-05 21:46:17,466 autoreload Watching for file changes with StatReloader
+INFO 2025-10-05 21:46:40,817 basehttp "GET /api/accounts HTTP/1.1" 301 0
+INFO 2025-10-05 21:46:42,383 basehttp "GET /api/accounts/ HTTP/1.1" 200 5934
+INFO 2025-10-05 21:46:42,914 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2025-10-05 21:46:42,941 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2025-10-05 21:46:43,150 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2025-10-05 21:46:43,919 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2025-10-05 21:46:45,812 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+WARNING 2025-10-05 21:46:45,815 log Not Found: /api/
+WARNING 2025-10-05 21:46:45,815 basehttp "GET /api/ HTTP/1.1" 404 2840
+INFO 2025-10-05 21:46:45,912 basehttp - Broken pipe from ('127.0.0.1', 61769)
+INFO 2025-10-05 21:46:46,023 basehttp - Broken pipe from ('127.0.0.1', 53573)
+INFO 2025-10-05 21:46:46,027 basehttp - Broken pipe from ('127.0.0.1', 59457)
+INFO 2025-10-05 21:46:46,284 basehttp - Broken pipe from ('127.0.0.1', 53836)
+INFO 2025-10-05 21:46:46,284 basehttp - Broken pipe from ('127.0.0.1', 52840)
+INFO 2025-10-05 21:46:46,305 basehttp - Broken pipe from ('127.0.0.1', 61753)
+INFO 2025-10-05 21:46:46,408 basehttp - Broken pipe from ('127.0.0.1', 62406)
+INFO 2025-10-05 21:46:55,797 autoreload E:\Coding\realProject\ITA\ITA_Platform\ITA_Platform\urls.py changed, reloading.
+INFO 2025-10-05 21:46:56,600 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-05 21:46:57,400 log Not Found: /api/
+WARNING 2025-10-05 21:46:57,400 basehttp "GET /api/ HTTP/1.1" 404 2995
+WARNING 2025-10-05 21:47:02,402 log Not Found: /api/courses/
+WARNING 2025-10-05 21:47:02,403 basehttp "GET /api/courses/ HTTP/1.1" 404 3367
+INFO 2025-10-05 21:47:12,948 basehttp "GET /api/courses/public HTTP/1.1" 301 0
+INFO 2025-10-05 21:47:12,997 basehttp "GET /api/courses/public/ HTTP/1.1" 200 5994
+INFO 2025-10-05 21:47:13,417 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2025-10-05 21:47:13,417 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2025-10-05 21:47:13,424 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2025-10-05 21:47:13,429 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2025-10-05 21:47:13,431 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2025-10-05 21:47:13,434 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2025-10-05 21:47:13,436 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2025-10-05 21:48:48,828 basehttp "GET /api/courses/admin/courses/ HTTP/1.1" 200 15812
+INFO 2025-10-05 21:48:49,074 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2025-10-05 22:03:44,736 basehttp "GET /api/accounts/auth/me/ HTTP/1.1" 200 180
+WARNING 2025-10-05 22:04:20,096 log Bad Request: /api/courses/admin/courses/
+WARNING 2025-10-05 22:04:20,097 basehttp "POST /api/courses/admin/courses/ HTTP/1.1" 400 58
+INFO 2025-10-05 22:04:44,927 basehttp "POST /api/courses/admin/categories/ HTTP/1.1" 201 202
+INFO 2025-10-05 22:04:51,817 basehttp "POST /api/courses/admin/courses/ HTTP/1.1" 201 227
+ERROR 2025-10-05 22:05:13,858 log Internal Server Error: /api/courses/admin/courses/
+Traceback (most recent call last):
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\courses\serializers.py", line 145, in get_enrollment_count
+    return obj.get_enrollment_count()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\courses\models.py", line 100, in get_enrollment_count
+    return self.enrollments.count()
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'Course' object has no attribute 'enrollments'
+ERROR 2025-10-05 22:05:13,890 basehttp "GET /api/courses/admin/courses/ HTTP/1.1" 500 140852
+ERROR 2025-10-05 22:07:21,756 log Internal Server Error: /api/courses/admin/courses/1/
+Traceback (most recent call last):
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\courses\serializers.py", line 79, in get_enrollment_count
+    return obj.get_enrollment_count()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\courses\models.py", line 100, in get_enrollment_count
+    return self.enrollments.count()
+           ^^^^^^^^^^^^^^^^
+AttributeError: 'Course' object has no attribute 'enrollments'
+ERROR 2025-10-05 22:07:21,758 basehttp "GET /api/courses/admin/courses/1/ HTTP/1.1" 500 137983

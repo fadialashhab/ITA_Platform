@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     
     # Local apps
     'accounts',
-    # 'courses',  # Add when created
+    'courses',
     # 'enrollments',  # Add when created
     # 'certifications',  # Add when created
     # 'payments',  # Add when created
