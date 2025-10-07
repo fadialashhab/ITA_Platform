@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'accounts',
     'courses',
     'enrollments',
-    # 'certifications',  # Add when created
-    # 'payments',  # Add when created
+    'certifications',
+    'payments',
 ]
 
 MIDDLEWARE = [

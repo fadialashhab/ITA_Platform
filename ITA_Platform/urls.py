@@ -17,8 +17,8 @@ urlpatterns = [
     path('api/accounts/', include('accounts.urls')),
     path('api/courses/', include('courses.urls')),
     path('api/enrollments/', include('enrollments.urls')),
-    # path('api/certifications/', include('certifications.urls')),  # Add when created
-    # path('api/payments/', include('payments.urls')),  # Add when created
+    path('api/certifications/', include('certifications.urls')),
+    path('api/payments/', include('payments.urls')),
     
     # REST Framework browsable API login/logout
     path('api-auth/', include('rest_framework.urls')),

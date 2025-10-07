@@ -330,3 +330,324 @@ ERROR 2025-10-05 22:07:21,758 basehttp "GET /api/courses/admin/courses/1/ HTTP/1
 INFO 2025-10-05 22:39:50,517 autoreload Watching for file changes with StatReloader
 INFO 2025-10-05 22:42:00,812 autoreload Watching for file changes with StatReloader
 INFO 2025-10-05 22:42:08,810 basehttp "GET /api/courses/admin/courses/ HTTP/1.1" 200 287
+INFO 2025-10-06 16:55:58,930 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-06 16:56:04,340 log Not Found: /
+WARNING 2025-10-06 16:56:04,340 basehttp "GET / HTTP/1.1" 404 3286
+WARNING 2025-10-06 16:56:04,480 log Not Found: /favicon.ico
+WARNING 2025-10-06 16:56:04,482 basehttp "GET /favicon.ico HTTP/1.1" 404 3337
+INFO 2025-10-06 17:05:35,956 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-06 17:05:37,884 log Unauthorized: /api/enrollments/admin/enrollments/
+WARNING 2025-10-06 17:05:37,884 basehttp "GET /api/enrollments/admin/enrollments/ HTTP/1.1" 401 59
+INFO 2025-10-06 17:06:05,347 basehttp "POST /api/accounts/auth/login/ HTTP/1.1" 200 149
+INFO 2025-10-06 17:06:14,379 basehttp "GET /api/enrollments/admin/enrollments/ HTTP/1.1" 200 52
+INFO 2025-10-06 17:06:35,700 basehttp "GET /api/courses/admin/courses/ HTTP/1.1" 200 287
+INFO 2025-10-06 17:08:10,425 basehttp "POST /api/accounts/users/ HTTP/1.1" 201 180
+INFO 2025-10-06 17:08:25,851 basehttp "GET /api/accounts/users/ HTTP/1.1" 200 806
+INFO 2025-10-06 17:09:05,095 basehttp "POST /api/enrollments/admin/enrollments/ HTTP/1.1" 201 100
+ERROR 2025-10-06 17:09:30,651 log Internal Server Error: /api/enrollments/admin/enrollments/
+Traceback (most recent call last):
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 715, in to_representation
+    return [
+           ^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+           ^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\enrollments\serializers.py", line 91, in get_payment_status
+    summary = obj.get_payment_summary()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\enrollments\models.py", line 132, in get_payment_summary
+    from payments.models import Payment
+ModuleNotFoundError: No module named 'payments'
+ERROR 2025-10-06 17:09:30,682 basehttp "GET /api/enrollments/admin/enrollments/ HTTP/1.1" 500 143825
+WARNING 2025-10-06 17:10:21,424 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-06 17:10:21,426 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 76
+INFO 2025-10-07 10:20:30,137 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-07 10:21:28,791 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-07 10:21:28,791 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 76
+INFO 2025-10-07 10:23:29,811 basehttp "POST /api/enrollments/admin/enrollments/1/complete/ HTTP/1.1" 200 1238
+WARNING 2025-10-07 10:23:43,133 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-07 10:23:43,133 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 63
+WARNING 2025-10-07 10:28:20,121 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-07 10:28:20,121 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 63
+WARNING 2025-10-07 10:28:46,977 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-07 10:28:46,977 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 54
+INFO 2025-10-07 10:29:10,054 basehttp "DELETE /api/enrollments/admin/enrollments/1/ HTTP/1.1" 204 0
+INFO 2025-10-07 10:29:18,234 basehttp "GET /api/enrollments/admin/enrollments/ HTTP/1.1" 200 52
+INFO 2025-10-07 10:29:35,871 basehttp "POST /api/enrollments/admin/enrollments/ HTTP/1.1" 201 100
+INFO 2025-10-07 10:29:54,629 basehttp "GET /api/enrollments/admin/enrollments/ HTTP/1.1" 200 348
+WARNING 2025-10-07 10:30:11,365 log Not Found: /api/enrollments/admin/enrollments/1/complete/
+WARNING 2025-10-07 10:30:11,368 basehttp "POST /api/enrollments/admin/enrollments/1/complete/ HTTP/1.1" 404 51
+INFO 2025-10-07 10:30:21,811 basehttp "POST /api/enrollments/admin/enrollments/2/complete/ HTTP/1.1" 200 1237
+WARNING 2025-10-07 10:30:46,625 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-07 10:30:46,627 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 60
+INFO 2025-10-07 10:30:53,494 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 10:31:14,191 basehttp "GET /api/certifications/admin/certificates/ HTTP/1.1" 200 260
+WARNING 2025-10-07 10:31:37,597 log Not Found: /api/certifications/admin/certificates/1/download/
+WARNING 2025-10-07 10:31:37,599 basehttp "GET /api/certifications/admin/certificates/1/download/ HTTP/1.1" 404 55
+INFO 2025-10-07 10:43:05,185 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py changed, reloading.
+INFO 2025-10-07 10:43:07,761 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 10:43:25,547 basehttp "DELETE /api/certifications/admin/certificates/1/ HTTP/1.1" 204 0
+INFO 2025-10-07 10:43:29,851 basehttp "GET /api/certifications/admin/certificates/ HTTP/1.1" 200 52
+INFO 2025-10-07 10:43:40,940 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 10:43:47,608 basehttp "GET /api/certifications/admin/certificates/ HTTP/1.1" 200 260
+INFO 2025-10-07 10:44:00,119 basehttp "GET /api/certifications/admin/certificates/2/download/ HTTP/1.1" 200 2240
+INFO 2025-10-07 10:50:42,875 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 10:50:43,901 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 10:55:29,750 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 10:55:31,918 basehttp "DELETE /api/certifications/admin/certificates/2/ HTTP/1.1" 204 0
+INFO 2025-10-07 10:55:42,818 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 10:55:52,299 basehttp "GET /api/certifications/admin/certificates/3/download/ HTTP/1.1" 200 3012
+INFO 2025-10-07 10:57:12,989 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 10:57:13,689 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 11:03:32,983 autoreload E:\Coding\realProject\ITA\ITA_Platform\ITA_Platform\settings.py changed, reloading.
+INFO 2025-10-07 11:03:33,732 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-07 11:03:42,660 log Not Found: /api/certifications/admin/certificates/2/
+WARNING 2025-10-07 11:03:42,661 basehttp "DELETE /api/certifications/admin/certificates/2/ HTTP/1.1" 404 52
+INFO 2025-10-07 11:03:46,134 basehttp "DELETE /api/certifications/admin/certificates/3/ HTTP/1.1" 204 0
+INFO 2025-10-07 11:03:51,451 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 11:04:00,649 basehttp "GET /api/certifications/admin/certificates/4/download/ HTTP/1.1" 200 3007
+INFO 2025-10-07 11:05:19,401 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 11:05:20,155 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 11:06:17,101 basehttp "DELETE /api/certifications/admin/certificates/4/ HTTP/1.1" 204 0
+INFO 2025-10-07 11:06:21,604 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 11:06:26,968 basehttp "GET /api/certifications/admin/certificates/5/download/ HTTP/1.1" 200 12992
+INFO 2025-10-07 11:19:49,464 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 11:20:06,147 basehttp "DELETE /api/certifications/admin/certificates/5/ HTTP/1.1" 204 0
+ERROR 2025-10-07 11:20:25,452 log Internal Server Error: /api/certifications/admin/certificates/
+Traceback (most recent call last):
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\serializers.py", line 120, in create
+    return Certificate.objects.create(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py", line 97, in save
+    self._generate_and_attach_pdf()
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py", line 101, in _generate_and_attach_pdf
+    from .utils import generate_certificate_pdf
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py", line 11, in <module>
+    from weasyprint import HTML, CSS
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\weasyprint\__init__.py", line 433, in <module>
+    from .css import preprocess_stylesheet  # noqa: I001, E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\weasyprint\css\__init__.py", line 28, in <module>
+    from .computed_values import COMPUTER_FUNCTIONS
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\weasyprint\css\computed_values.py", line 9, in <module>
+    from ..text.ffi import FROM_UNITS, ffi, pango
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\weasyprint\text\ffi.py", line 475, in <module>
+    gobject = _dlopen(
+              ^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\weasyprint\text\ffi.py", line 463, in _dlopen
+    return ffi.dlopen(names[0], flags)  # pragma: no cover
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\cffi\api.py", line 150, in dlopen
+    lib, function_cache = _make_ffi_library(self, name, flags)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\cffi\api.py", line 834, in _make_ffi_library
+    backendlib = _load_backend_lib(backend, libname, flags)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\cffi\api.py", line 829, in _load_backend_lib
+    raise OSError(msg)
+OSError: cannot load library 'libgobject-2.0-0': error 0x7e.  Additionally, ctypes.util.find_library() did not manage to locate a library called 'libgobject-2.0-0'
+ERROR 2025-10-07 11:20:25,475 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 500 227007
+INFO 2025-10-07 11:23:08,972 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-07 11:23:19,012 log Bad Request: /api/certifications/admin/certificates/
+WARNING 2025-10-07 11:23:19,014 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 400 67
+WARNING 2025-10-07 11:23:30,795 log Not Found: /api/certifications/admin/certificates/6/download/
+WARNING 2025-10-07 11:23:30,796 basehttp "GET /api/certifications/admin/certificates/6/download/ HTTP/1.1" 404 55
+INFO 2025-10-07 11:23:38,451 basehttp "DELETE /api/certifications/admin/certificates/6/ HTTP/1.1" 204 0
+ERROR 2025-10-07 11:23:58,686 log Internal Server Error: /api/certifications/admin/certificates/
+Traceback (most recent call last):
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\serializers.py", line 120, in create
+    return Certificate.objects.create(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py", line 97, in save
+    self._generate_and_attach_pdf()
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py", line 101, in _generate_and_attach_pdf
+    from .utils import generate_certificate_pdf
+ImportError: cannot import name 'generate_certificate_pdf' from 'certifications.utils' (E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py)
+ERROR 2025-10-07 11:23:58,693 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 500 133257
+INFO 2025-10-07 11:24:37,298 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 11:24:38,723 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-07 11:24:42,891 log Not Found: /api/certifications/admin/certificates/6/
+WARNING 2025-10-07 11:24:42,892 basehttp "DELETE /api/certifications/admin/certificates/6/ HTTP/1.1" 404 52
+INFO 2025-10-07 11:24:51,268 basehttp "DELETE /api/certifications/admin/certificates/7/ HTTP/1.1" 204 0
+INFO 2025-10-07 11:24:59,333 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 11:25:09,906 basehttp "GET /api/certifications/admin/certificates/8/download/ HTTP/1.1" 200 6828
+INFO 2025-10-07 11:27:16,606 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 11:27:17,935 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 11:27:37,935 basehttp "DELETE /api/certifications/admin/certificates/8/ HTTP/1.1" 204 0
+ERROR 2025-10-07 11:27:42,502 log Internal Server Error: /api/certifications/admin/certificates/
+Traceback (most recent call last):
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\serializers.py", line 120, in create
+    return Certificate.objects.create(**validated_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Coding\realProject\ITA\ITA_Platform\.venv\Lib\site-packages\django\db\models\query.py", line 663, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py", line 97, in save
+    self._generate_and_attach_pdf()
+  File "E:\Coding\realProject\ITA\ITA_Platform\certifications\models.py", line 101, in _generate_and_attach_pdf
+    from .utils import generate_certificate_pdf
+ImportError: cannot import name 'generate_certificate_pdf' from 'certifications.utils' (E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py)
+ERROR 2025-10-07 11:27:42,508 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 500 133257
+INFO 2025-10-07 11:28:06,016 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 11:28:06,873 autoreload Watching for file changes with StatReloader
+WARNING 2025-10-07 11:28:10,206 log Not Found: /api/certifications/admin/certificates/8/
+WARNING 2025-10-07 11:28:10,209 basehttp "DELETE /api/certifications/admin/certificates/8/ HTTP/1.1" 404 52
+INFO 2025-10-07 11:28:14,395 basehttp "DELETE /api/certifications/admin/certificates/9/ HTTP/1.1" 204 0
+ERROR 2025-10-07 11:28:21,182 models Failed to generate PDF for certificate CERT-2025-000001: name 'mm' is not defined
+INFO 2025-10-07 11:28:21,183 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+WARNING 2025-10-07 11:28:27,624 log Not Found: /api/certifications/admin/certificates/10/download/
+WARNING 2025-10-07 11:28:27,624 basehttp "GET /api/certifications/admin/certificates/10/download/ HTTP/1.1" 404 55
+INFO 2025-10-07 11:28:53,403 autoreload E:\Coding\realProject\ITA\ITA_Platform\certifications\utils.py changed, reloading.
+INFO 2025-10-07 11:28:54,411 autoreload Watching for file changes with StatReloader
+INFO 2025-10-07 11:32:41,101 basehttp "GET /api/certifications/admin/certificates/ HTTP/1.1" 200 261
+INFO 2025-10-07 11:32:56,193 basehttp "DELETE /api/certifications/admin/certificates/10/ HTTP/1.1" 204 0
+INFO 2025-10-07 11:33:09,821 basehttp "POST /api/certifications/admin/certificates/ HTTP/1.1" 201 59
+INFO 2025-10-07 11:33:21,996 basehttp "GET /api/certifications/admin/certificates/11/download/ HTTP/1.1" 200 5075
+WARNING 2025-10-07 11:34:31,964 log Not Found: /api/certifications/public/certificates/verify/
+WARNING 2025-10-07 11:34:31,967 basehttp "GET /api/certifications/public/certificates/verify/?code=0887183-f64b-44f1-ac28-8b8992808653 HTTP/1.1" 404 79
+INFO 2025-10-07 11:35:16,054 basehttp "GET /api/certifications/admin/certificates/11/ HTTP/1.1" 200 678
+INFO 2025-10-07 11:35:47,120 basehttp "GET /api/certifications/public/certificates/verify/?code=50887183-f64b-44f1-ac28-8b8992808653 HTTP/1.1" 200 265
+WARNING 2025-10-07 11:36:39,248 log Forbidden: /api/certifications/public/certificates/verify/
+WARNING 2025-10-07 11:36:39,248 basehttp "POST /api/certifications/public/certificates/verify/ HTTP/1.1" 403 45
+INFO 2025-10-07 11:37:06,433 basehttp "GET /admin/ HTTP/1.1" 200 4561
+WARNING 2025-10-07 11:37:24,466 log Forbidden: /api/certifications/public/certificates/verify/
+WARNING 2025-10-07 11:37:24,466 basehttp "POST /api/certifications/public/certificates/verify/ HTTP/1.1" 403 45
+WARNING 2025-10-07 11:38:01,907 log Not Found: /api/certifications/admin/certificates/1/
+WARNING 2025-10-07 11:38:01,907 basehttp "PATCH /api/certifications/admin/certificates/1/ HTTP/1.1" 404 52
+INFO 2025-10-07 11:38:10,544 basehttp "PATCH /api/certifications/admin/certificates/11/ HTTP/1.1" 200 117
